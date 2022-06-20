@@ -11,7 +11,7 @@ To **scale**  the globe simply grab the globe with both controllers with the **p
 
 # Activate News Panel
 
-To **activate a news panel** click on one of the red news pins on the globe with eiter controller with the **trigger button**
+To **activate a news panel** click on one of the red news pins on the globe with either controller with the **trigger button**
 
 ![trigger buttons](https://i.postimg.cc/ydjFjDKZ/controller-Trigger.png)
 
