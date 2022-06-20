@@ -328,15 +328,22 @@ namespace Oculus.Interaction
 
         public override void Process()
         {
-            foreach (Pointer pointer in _pointersForDeletion)
+            try
             {
-                ProcessPointer(pointer, true);
-            }
-            _pointersForDeletion.Clear();
+                foreach (Pointer pointer in _pointersForDeletion)
+                {
+                    ProcessPointer(pointer, true);
+                }
+                _pointersForDeletion.Clear();
 
-            foreach (Pointer pointer in _pointerMap.Values)
+                foreach (Pointer pointer in _pointerMap.Values)
+                {
+                    ProcessPointer(pointer);
+                }
+            }
+            catch (Exception e)
             {
-                ProcessPointer(pointer);
+                print("error");
             }
         }
 
