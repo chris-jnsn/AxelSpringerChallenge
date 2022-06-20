@@ -7,7 +7,7 @@ To **move** and **rotate** the globe simply grab it with either controller with 
 ![palm grip buttons](https://i.postimg.cc/DwGLDjFF/controller-Palm.png)
 # Scale
 
-To ** scale**  the globe simply grab the globe with both controllers with the **palm grip button** and pull your hands apart
+To **scale**  the globe simply grab the globe with both controllers with the **palm grip button** and pull your hands apart
 
 # Activate News Panel
 
